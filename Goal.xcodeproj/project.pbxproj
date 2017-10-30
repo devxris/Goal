@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		457F897A1FA701DD004B07D0 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457F89791FA701DD004B07D0 /* GoalCell.swift */; };
 		457F897D1FA70870004B07D0 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457F897C1FA70870004B07D0 /* GoalType.swift */; };
+		457F897F1FA70EA6004B07D0 /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457F897E1FA70EA6004B07D0 /* CreateGoalVC.swift */; };
 		459831F51FA6FA0800DD29A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459831F41FA6FA0800DD29A5 /* AppDelegate.swift */; };
 		459831F71FA6FA0800DD29A5 /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459831F61FA6FA0800DD29A5 /* GoalsVC.swift */; };
 		459831FA1FA6FA0800DD29A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459831F81FA6FA0800DD29A5 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		457F89791FA701DD004B07D0 /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
 		457F897C1FA70870004B07D0 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
+		457F897E1FA70EA6004B07D0 /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
 		459831F11FA6FA0800DD29A5 /* Goal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Goal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		459831F41FA6FA0800DD29A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		459831F61FA6FA0800DD29A5 /* GoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				459831F41FA6FA0800DD29A5 /* AppDelegate.swift */,
 				459831F61FA6FA0800DD29A5 /* GoalsVC.swift */,
+				457F897E1FA70EA6004B07D0 /* CreateGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				457F897A1FA701DD004B07D0 /* GoalCell.swift in Sources */,
+				457F897F1FA70EA6004B07D0 /* CreateGoalVC.swift in Sources */,
 				457F897D1FA70870004B07D0 /* GoalType.swift in Sources */,
 				459831F71FA6FA0800DD29A5 /* GoalsVC.swift in Sources */,
 				459831F51FA6FA0800DD29A5 /* AppDelegate.swift in Sources */,
