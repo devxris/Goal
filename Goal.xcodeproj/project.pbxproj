@@ -56,15 +56,39 @@
 		459831F31FA6FA0800DD29A5 /* Goal */ = {
 			isa = PBXGroup;
 			children = (
-				459831F41FA6FA0800DD29A5 /* AppDelegate.swift */,
-				459831F61FA6FA0800DD29A5 /* ViewController.swift */,
-				459831F81FA6FA0800DD29A5 /* Main.storyboard */,
-				459831FE1FA6FA0800DD29A5 /* Assets.xcassets */,
-				459832001FA6FA0800DD29A5 /* LaunchScreen.storyboard */,
-				459832031FA6FA0800DD29A5 /* Info.plist */,
 				459831FB1FA6FA0800DD29A5 /* Goal.xcdatamodeld */,
+				459832091FA6FA4100DD29A5 /* Resources */,
+				4598320A1FA6FA4C00DD29A5 /* View */,
+				4598320B1FA6FA5400DD29A5 /* Controller */,
 			);
 			path = Goal;
+			sourceTree = "<group>";
+		};
+		459832091FA6FA4100DD29A5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				459831FE1FA6FA0800DD29A5 /* Assets.xcassets */,
+				459832031FA6FA0800DD29A5 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4598320A1FA6FA4C00DD29A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				459832001FA6FA0800DD29A5 /* LaunchScreen.storyboard */,
+				459831F81FA6FA0800DD29A5 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4598320B1FA6FA5400DD29A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				459831F41FA6FA0800DD29A5 /* AppDelegate.swift */,
+				459831F61FA6FA0800DD29A5 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,7 +304,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9H46LQG73T;
-				INFOPLIST_FILE = Goal/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Goal/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DevXris.Goal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,7 +319,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9H46LQG73T;
-				INFOPLIST_FILE = Goal/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Goal/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DevXris.Goal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
