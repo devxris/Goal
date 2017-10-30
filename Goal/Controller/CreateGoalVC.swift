@@ -26,5 +26,5 @@ class CreateGoalVC: UIViewController {
 	@IBAction func next(_ sender: UIButton) {
 	}
 	
-	@IBAction func back(_ sender: UIButton) { dismiss(animated: true, completion: nil) }
+	@IBAction func back(_ sender: UIButton) { dismissDetail() }
 }

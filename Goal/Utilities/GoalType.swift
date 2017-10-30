@@ -6,7 +6,7 @@
 //  Copyright © 2017 Chris Huang. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 enum GoalType: String {
 	case longTerm = "Long Term"

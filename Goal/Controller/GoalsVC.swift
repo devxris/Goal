@@ -20,6 +20,9 @@ class GoalsVC: UIViewController {
 	
 	// target actions
 	@IBAction func addGoal(_ sender: UIButton) {
+		// present CreateGoalVC with custom transition
+		guard let createGoalVC = storyboard?.instantiateViewController(withIdentifier: "CreateGoalVC") else { return }
+		presentDetail(createGoalVC)
 	}
 }
 
